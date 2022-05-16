@@ -49,6 +49,7 @@ def collect(file,fequency):
         info = '{},{},{},{},{}\n'.format(entry_time,temperature_c_bme,temperature_c_dht,humidity,pressure)
         print(info)
         f.write(info)
+        f.flush()
         
 
         time.sleep(fequency)
