@@ -31,5 +31,12 @@ Start logging with command:
 where [fequency] is the time between each measurments.
 
 
+## Log Format
+
+Onec the logging starts, you can find a SensorLog.csv Under the same directory.
+Columns from left to right are:
+SystemTimestamp   BME280_Temperature   DHT22_Temperature    DHT22_Humidity   BME280_Pressure
+
+
 
    
