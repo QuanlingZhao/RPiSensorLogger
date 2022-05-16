@@ -21,7 +21,7 @@ You can install dependencies by run setup.hs on RPis.
 ### DHT22
 - DATA -> GPIO4
 
-Both sensors run through 3.3v.
+Both sensors run through 3.3v. Additionally, DHT22 is connected with a 2K resistor (10K recommended).
 
 ## Usage
 
